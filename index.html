@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Registration Form</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <form class="forms">
+    <h1>Registration Form</h1>
+    <div class="form-group">
+      <label for="name">Fullname</label>
+      <input id="name" type="text" name="name" required />
+    </div>
+    <div class="form-group">
+      <label for="email">Email</label>
+      <input id=email type="text" name="email" required />
+    </div>
+    <div class="form-group">
+      <label for="password">Password</label>
+      <input id="password" type="text" name="password" required />
+    </div>
+    <div class="form-group">
+      <label for="confirm-password">Confirm-password</label>
+      <input id="confirm-password" type="text" name="confirm-password" required />
+
+      <fieldset>
+        <legend>Account type (required)</legend>
+        <label for="Personal account">Personal account</label>
+        <input id="Personal account" type="radio" name="account" required />
+        <label for="Business account">Business account</label>
+        <input id="Business account" type="radio" name="account" required />
+      </fieldset>
+    </div>
+    </fieldset>
+    <fieldset>
+      <label for="motivation">Please put your motivation letter here:
+        <input id="motivation" type="file" name="motivation" </input>
+
+        <label for="id">talk more about yourself
+          <textarea id="id" name="bio" rows="3" cols="30"></textarea>
+
+          <label>How did you find us?
+            <select>
+              <option>(select one)</option>
+              <option>Youtube</option>
+              <option>X</option>
+              <option>Instagram</option>
+              <option>TikTok</option>
+            </select>
+    </fieldset>
+
+    <label for="terms-and-conditions">
+      <input id="terms-and-conditions" type="checkbox" name="terms-and-conditions" required /> I accept the <a href="https://www.freecodecamp.org/news/terms-of-service/" target="blank">terms-and-conditions.
+
+        <input type="submit" value="Let's go!">
+  </form>
+</body>
+
+</html>
